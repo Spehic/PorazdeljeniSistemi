@@ -7,6 +7,7 @@ import (
 	"strings"
 	"unicode"
 	"github.com/laspp/PS-2024/vaje/naloga-1/koda/xkcd"
+	"sort"
 )
 
 var wg 	sync.WaitGroup
@@ -31,6 +32,7 @@ func cleanString(s string) string {
 func count(offset int, length int) {
 	defer wg.Done()	
 	
+	//lokalni slovar
 	pogostost := make(map[string]int)
 
 	for i := offset; i < offset + length; i++ {
@@ -69,9 +71,29 @@ func count(offset int, length int) {
 
 }
 
+// struct za urejanje
 type KeyValue struct{
 	k string
 	v int
+}
+
+type SortKeyValue []KeyValue
+
+func (s SortKeyValue) Len() int {
+	return len(s)
+}
+
+func (s SortKeyValue) Less(i,j int) bool {
+	if ( s[i].v == s[j].v ) {
+		return s[i].k < s[j].k
+	}
+
+	return s[i].v > s[j].v
+}
+
+
+func (s SortKeyValue) Swap(i,j int) {
+	s[i],s[j] = s[j], s[i]
 }
 
 func main(){
@@ -107,8 +129,12 @@ func main(){
 	
 	var all []KeyValue
 	for k, v := range res {
-		append(all, KeyValue{k,v})
+		all = append(all, KeyValue{k,v})
 	}
-
-	fmt.Println( res )
+	
+	sort.Sort(SortKeyValue(all))
+	
+	for i:=0; i< 15; i++ {
+		fmt.Println( all[i] )
+	}
 }
