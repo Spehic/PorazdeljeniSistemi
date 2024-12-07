@@ -103,7 +103,6 @@ func cleanUp() {
 func adjust() {
 	expected := expectedGoroutines()
 	diff := curGoroutines - expected
-	fmt.Println( "current:", curGoroutines, "expected:" ,expected, "--------------------------------------------", "diff:", diff)
 	if ( diff <= 0 ) {
 		for i:= 0; i < -diff; i++ {
 			curGoroutines += 1
@@ -116,21 +115,21 @@ func adjust() {
 		}
 	}
 
-	time.Sleep(time.Microsecond * 10000)
+	time.Sleep(time.Microsecond * 12000)
 }
 
 func expectedGoroutines() int {
 	curBuf := len( producer.TaskChan )
 	full := float64( curBuf ) / float64(10000.0)
 	
-	//fmt.Println("Full", full)
+	fmt.Println("Current Goroutines: ", curGoroutines, " Full:", full)
 
 	if full > 0.5 {
 		return maxGoroutines
 	}
 
 
-	return int(math.Max( full * float64( maxGoroutines ), 1.0))
+	return int(math.Max( full * float64( maxGoroutines * 2 ), 1.0))
 }
 
 func main() {
