@@ -116,7 +116,7 @@ func adjust() {
 		}
 	}
 
-	time.Sleep(time.Microsecond * 1000)
+	time.Sleep(time.Microsecond * 10000)
 }
 
 func expectedGoroutines() int {
@@ -125,7 +125,7 @@ func expectedGoroutines() int {
 	
 	//fmt.Println("Full", full)
 
-	if full > 0.8 {
+	if full > 0.5 {
 		return maxGoroutines
 	}
 
@@ -161,8 +161,8 @@ func main() {
 	for !producer.QueueEmpty() {
 	}
 	
-	fmt.Println("GenStopped, killing controller")
-	fmt.Println(invIndex["hard"])
+	//fmt.Println("GenStopped, killing controller")
+	//fmt.Println(invIndex["hard"])
 	killControllerChan <- 0
 
 	elapsed := time.Since(start)
