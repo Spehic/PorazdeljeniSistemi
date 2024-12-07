@@ -11,6 +11,7 @@ import (
 	"sync"
 	"strings"
 	"unicode"
+	"flag"
 )
 
 
@@ -57,14 +58,14 @@ func process() {
 	clean := cleanString(task.Data)
 	words := strings.Split( clean , " " )
 	
-	fmt.Println( words, task.Id )
+	//fmt.Println( words, task.Id )
 	
 	for _, word := range words {
 			if len( word ) < 4 {
 				continue;
 			}
 			
-			fmt.Println( word, task.Id )
+			//fmt.Println( word, task.Id )
 			lock.Lock()
 			invIndex[ word ] = append( invIndex[word], task.Id)
 			lock.Unlock()
@@ -102,7 +103,7 @@ func cleanUp() {
 func adjust() {
 	expected := expectedGoroutines()
 	diff := curGoroutines - expected
-	//fmt.Println( "current:", curGoroutines, "expected:" ,expected, "--------------------------------------------", "diff:", diff)
+	fmt.Println( "current:", curGoroutines, "expected:" ,expected, "--------------------------------------------", "diff:", diff)
 	if ( diff <= 0 ) {
 		for i:= 0; i < -diff; i++ {
 			curGoroutines += 1
@@ -114,6 +115,7 @@ func adjust() {
 			killWorkerChan <- 0
 		}
 	}
+
 	time.Sleep(time.Microsecond * 1000)
 }
 
@@ -134,8 +136,13 @@ func expectedGoroutines() int {
 func main() {
 	// Definiramo nov generator
 	// Inicializiramo generator. Parameter določa zakasnitev med zahtevki
-	producer.New(9000)
-	maxGoroutines = 1
+	
+	goNums := flag.Int("g", 8, "num of goroutines")
+	difficulty := flag.Int("d", 5000, "difficulty")
+	flag.Parse()
+
+	producer.New(*difficulty)
+	maxGoroutines = *goNums
 	start := time.Now()
 
 	// Zazenemo prvega delavca
