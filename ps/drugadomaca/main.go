@@ -121,7 +121,7 @@ func adjust() {
 		}
 	}
 
-	time.Sleep(time.Microsecond * 1000)
+	time.Sleep(time.Microsecond * 100)
 }
 
 func expectedGoroutines() int {
