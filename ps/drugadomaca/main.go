@@ -40,20 +40,26 @@ func cleanString(s string) string {
 
 // worker goroutine works until it reads from exitChan
 func worker() {
+	localMap := make(map[string][]uint64)
 	for {
 		select {
 			case <-killWorkerChan:
+				lock.Lock()
+				for k,v := range localMap {
+					invIndex[ k ] = append( invIndex[k], v...)
+				}
+				lock.Unlock()
 				return
 			default:
-				process()
+				process( &localMap )
 		}
 	}
 }
 
 // this function processes the requests
-func process() {
+func process( lm *map[string][]uint64 ) {
 	task := <- producer.TaskChan
-	
+	localMap := *lm
 
 	clean := cleanString(task.Data)
 	words := strings.Split( clean , " " )
@@ -61,15 +67,15 @@ func process() {
 	//fmt.Println( words, task.Id )
 	
 	for _, word := range words {
-			if len( word ) < 4 {
-				continue;
-			}
+		if len( word ) < 4 {
+			continue;
+		}
 			
 			//fmt.Println( word, task.Id )
-			lock.Lock()
-			invIndex[ word ] = append( invIndex[word], task.Id)
-			lock.Unlock()
+		localMap[ word ] = append( localMap[word], task.Id)
+
 	}
+	
 
 	//fmt.Println( words )
 	return
@@ -115,7 +121,7 @@ func adjust() {
 		}
 	}
 
-	time.Sleep(time.Microsecond * 12000)
+	time.Sleep(time.Microsecond * 1000)
 }
 
 func expectedGoroutines() int {
