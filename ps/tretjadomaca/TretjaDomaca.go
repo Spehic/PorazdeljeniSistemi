@@ -96,7 +96,7 @@ func normalProcess(port, numOfProcesses, spread int) {
 	addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", (port+id)))
 	timeout := time.After(5 * time.Second)
 
-	localMap := make(map[string]int)
+	localMap := make(map[string]bool)
 	for {
 		select {
 		case <-timeout:
@@ -110,13 +110,16 @@ func normalProcess(port, numOfProcesses, spread int) {
 				continue
 			}
 			fmt.Println("returnd", msg)
-			if _, ok := localMap[msg]; !ok {
+
+			_, ok := localMap[msg]
+			if !ok {
 				arr := getRandomNumbers(numOfProcesses, spread)
 
 				for _, pid := range arr {
 					addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", (port+pid)))
 					send(addr, pid)
 				}
+				localMap[msg] = true
 			}
 		}
 	}
