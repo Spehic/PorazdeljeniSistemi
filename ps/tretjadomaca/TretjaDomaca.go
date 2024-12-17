@@ -17,6 +17,8 @@ var stopHeartbeat bool
 var N int
 var id int
 
+var conn *net.UDPConn
+
 var Logger *govec.GoLog
 var opts govec.GoLogOptions
 
@@ -28,11 +30,7 @@ func checkError(err error) {
 
 func receive(addr *net.UDPAddr) string {
 
-	conn, err := net.ListenUDP("udp", addr)
-	checkError(err)
-
 	fmt.Println(conn)
-	defer conn.Close()
 
 	deadline := time.Now().Add(5 * time.Second)
 	conn.SetDeadline(deadline)
@@ -52,15 +50,15 @@ func receive(addr *net.UDPAddr) string {
 
 func send(addr *net.UDPAddr, msg int) {
 	// Odpremo povezavo
-	conn, err := net.DialUDP("udp", nil, addr)
+	sendConn, err := net.DialUDP("udp", nil, addr)
 	checkError(err)
-	defer conn.Close()
+	defer sendConn.Close()
 	// Pripravimo sporočilo
 
 	Logger.LogLocalEvent("Priprava sporocila", opts)
 	sMsg := strconv.Itoa(msg)
 	sMsgVC := Logger.PrepareSend("Poslano sporocilo ", []byte(sMsg), opts)
-	conn.Write(sMsgVC)
+	sendConn.Write(sMsgVC)
 	fmt.Println("Proces", id, "poslal sporočilo", sMsg, "procesu na naslovu", addr)
 	//fmt.Println("endsend", id)
 }
@@ -94,6 +92,10 @@ func mainProcess(port, numOfProcesses, numOfMessages, spread int) {
 func normalProcess(port, numOfProcesses, spread int) {
 	addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", (port+id)))
 	timeout := time.After(5 * time.Second)
+
+	conn, err := net.ListenUDP("udp", addr)
+	checkError(err)
+	defer conn.Close()
 
 	localMap := make(map[string]bool)
 	for {
