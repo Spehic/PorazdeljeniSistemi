@@ -133,10 +133,10 @@ func main() {
 	flag.Parse()
 
 	// dnevnik z vektorsko uro
+	id = *processId
 	Logger = govec.InitGoVector("Process-"+strconv.Itoa(id), "Log-Process-"+strconv.Itoa(id), govec.GetDefaultConfig())
 	opts = govec.GetDefaultLogOptions()
 
-	id = *processId
 	if *processId == 0 {
 		mainProcess(*portPtr, *numOfProcesses, *numOfMessages, *spread)
 		fmt.Println("Glavni proces")
