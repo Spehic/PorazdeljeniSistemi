@@ -83,7 +83,7 @@ func getRandomNumbers(numOfProcesses, spread int) []int {
 
 func mainProcess(port, numOfProcesses, numOfMessages, spread int) {
 	for i := 0; i < numOfMessages; i++ {
-		time.Sleep(500 * time.Millisecond)
+		time.Sleep(100 * time.Millisecond)
 		arr := getRandomNumbers(numOfProcesses, spread)
 
 		for _, pid := range arr {
