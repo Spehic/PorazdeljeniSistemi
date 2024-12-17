@@ -1,21 +1,21 @@
 0 Sending 0
-Proces 0 poslal sporočilo 0 procesu na naslovu 127.0.0.1:9203
-0 Sending 0
 Proces 0 poslal sporočilo 0 procesu na naslovu 127.0.0.1:9201
-0 Sending 1
-Proces 0 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9203
+0 Sending 0
+Proces 0 poslal sporočilo 0 procesu na naslovu 127.0.0.1:9203
 0 Sending 1
 Proces 0 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
-0 Sending 2
-Proces 0 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9204
+0 Sending 1
+Proces 0 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9203
 0 Sending 2
 Proces 0 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9203
+0 Sending 2
+Proces 0 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
 0 Sending 3
 Proces 0 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9204
 0 Sending 3
-Proces 0 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9202
+Proces 0 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
 0 Sending 4
-Proces 0 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9202
+Proces 0 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9201
 0 Sending 4
 Proces 0 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
 Glavni proces

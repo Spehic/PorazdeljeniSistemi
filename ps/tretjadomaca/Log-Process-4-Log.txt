@@ -1,38 +1,4 @@
 Process-4 {"Process-4":1}
 Initialization Complete
-Process-4 {"Process-0":7, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":2}
-INFO Prejeto sporocilo
-Process-4 {"Process-0":7, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":3}
-INFO Priprava sporocila
-Process-4 {"Process-0":7, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":4}
-INFO Poslano sporocilo 1
-Process-4 {"Process-0":7, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":5}
-INFO Priprava sporocila
-Process-4 {"Process-0":7, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":6}
-INFO Poslano sporocilo 2
-Process-4 {"Process-0":11, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":7}
-INFO Prejeto sporocilo
-Process-4 {"Process-0":11, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":8}
-INFO Priprava sporocila
-Process-4 {"Process-0":11, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":9}
-INFO Poslano sporocilo 4
-Process-4 {"Process-0":11, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":10}
-INFO Priprava sporocila
-Process-4 {"Process-0":11, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":11}
-INFO Poslano sporocilo 3
-Process-4 {"Process-0":11, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":12}
-INFO Prejeto sporocilo
-Process-4 {"Process-0":15, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":13}
-INFO Prejeto sporocilo
-Process-4 {"Process-0":15, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":14}
-INFO Priprava sporocila
-Process-4 {"Process-0":15, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":15}
-INFO Poslano sporocilo 4
-Process-4 {"Process-0":15, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":16}
-INFO Priprava sporocila
-Process-4 {"Process-0":15, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":17}
-INFO Poslano sporocilo 3
-Process-4 {"Process-0":15, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":18}
-INFO Prejeto sporocilo
-Process-4 {"Process-0":21, "Process-1":9, "Process-2":4, "Process-3":19, "Process-4":19}
+Process-4 {"Process-0":15, "Process-4":2}
 INFO Prejeto sporocilo
