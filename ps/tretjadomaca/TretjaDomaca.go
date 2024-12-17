@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/binary"
 	"flag"
 	"fmt"
 	"math/rand"
@@ -28,27 +29,26 @@ func checkError(err error) {
 	}
 }
 
-func receive() string {
+func receive() int {
 	fmt.Println(id, "Receiving", conn)
 
 	buffer := make([]byte, 1024)
 	var msg []byte
-	var strMsg string
+	var resMsg int
 
-	res, err := conn.Read(buffer)
+	_, err := conn.Read(buffer)
 	checkError(err)
-	fmt.Println("conn.Read", res)
 
 	Logger.UnpackReceive("Prejeto sporocilo", buffer, &msg, opts)
 
 	if len(msg) == 0 {
-		strMsg = ""
+		resMsg = -1
 	} else {
-		strMsg = string(rune(msg[0]))
+		resMsg = int(binary.LittleEndian.Uint32(msg))
 	}
 
-	fmt.Println("Prejeto sporocilo " + strMsg)
-	return strMsg
+	fmt.Println("Prejeto sporocilo ", resMsg)
+	return resMsg
 }
 
 func send(addr *net.UDPAddr, msg int) {
@@ -106,7 +106,7 @@ func normalProcess(port, numOfProcesses, spread int) {
 	conn.SetDeadline(deadline)
 	defer conn.Close()
 
-	localMap := make(map[string]bool)
+	localMap := make(map[int]bool)
 	for {
 		select {
 		case <-timeout:
@@ -116,7 +116,7 @@ func normalProcess(port, numOfProcesses, spread int) {
 			fmt.Println(addr)
 			msg := receive()
 
-			if len(msg) == 0 {
+			if msg == -1 {
 				continue
 			}
 			fmt.Println("returnd", msg)
@@ -127,7 +127,7 @@ func normalProcess(port, numOfProcesses, spread int) {
 
 				for _, pid := range arr {
 					addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", (port+pid)))
-					send(addr, pid)
+					send(addr, msg)
 				}
 				localMap[msg] = true
 			}
