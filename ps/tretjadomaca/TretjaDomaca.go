@@ -29,25 +29,31 @@ func checkError(err error) {
 }
 
 func receive() string {
-	fmt.Println(conn)
-
-	deadline := time.Now().Add(5 * time.Second)
-	conn.SetDeadline(deadline)
+	fmt.Println(id, "Receiving", conn)
 
 	buffer := make([]byte, 1024)
 	var msg []byte
+	var strMsg string
 
-	conn.Read(buffer)
-	Logger.UnpackReceive("Prejeto sporocilo "+string(rune(msg[0])), buffer, &msg, opts)
+	res, err := conn.Read(buffer)
+	checkError(err)
+	fmt.Println("conn.Read", res)
+
+	Logger.UnpackReceive("Prejeto sporocilo", buffer, &msg, opts)
 
 	if len(msg) == 0 {
-		return ""
+		strMsg = ""
+	} else {
+		strMsg = string(rune(msg[0]))
 	}
 
-	return string(rune(msg[0]))
+	fmt.Println("Prejeto sporocilo " + strMsg)
+	return strMsg
 }
 
 func send(addr *net.UDPAddr, msg int) {
+	fmt.Println(id, "Sending", msg)
+
 	// Odpremo povezavo
 	sendConn, err := net.DialUDP("udp", nil, addr)
 	checkError(err)
@@ -92,8 +98,12 @@ func normalProcess(port, numOfProcesses, spread int) {
 	addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", (port+id)))
 	timeout := time.After(5 * time.Second)
 
-	conn, err := net.ListenUDP("udp", addr)
+	udpConn, err := net.ListenUDP("udp", addr)
+	conn = udpConn
+	fmt.Println(id, "Conn created", conn)
 	checkError(err)
+	deadline := time.Now().Add(5 * time.Second)
+	conn.SetDeadline(deadline)
 	defer conn.Close()
 
 	localMap := make(map[string]bool)
