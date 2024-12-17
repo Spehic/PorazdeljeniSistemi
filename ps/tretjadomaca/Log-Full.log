@@ -5,172 +5,48 @@ Initialization Complete
 Process-0 {"Process-0":2}
 INFO Priprava sporocila
 Process-0 {"Process-0":3}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 0
 Process-0 {"Process-0":4}
 INFO Priprava sporocila
 Process-0 {"Process-0":5}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 0
 Process-0 {"Process-0":6}
 INFO Priprava sporocila
 Process-0 {"Process-0":7}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 1
 Process-0 {"Process-0":8}
 INFO Priprava sporocila
 Process-0 {"Process-0":9}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 1
 Process-0 {"Process-0":10}
 INFO Priprava sporocila
 Process-0 {"Process-0":11}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 2
 Process-0 {"Process-0":12}
 INFO Priprava sporocila
 Process-0 {"Process-0":13}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 2
 Process-0 {"Process-0":14}
 INFO Priprava sporocila
 Process-0 {"Process-0":15}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 3
 Process-0 {"Process-0":16}
 INFO Priprava sporocila
 Process-0 {"Process-0":17}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 3
 Process-0 {"Process-0":18}
 INFO Priprava sporocila
 Process-0 {"Process-0":19}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 4
 Process-0 {"Process-0":20}
 INFO Priprava sporocila
 Process-0 {"Process-0":21}
-INFO Poslano sporocilo 
+INFO Poslano sporocilo 4
 Process-1 {"Process-1":1}
 Initialization Complete
-Process-1 {"Process-0":7, "Process-1":2}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":7, "Process-1":3}
-INFO Priprava sporocila
-Process-1 {"Process-0":7, "Process-1":4}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":7, "Process-1":5}
-INFO Priprava sporocila
-Process-1 {"Process-0":7, "Process-1":6}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":9, "Process-1":7, "Process-3":6}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":9, "Process-1":8, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":11, "Process-1":9, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":11, "Process-1":10, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Priprava sporocila
-Process-1 {"Process-0":11, "Process-1":11, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":11, "Process-1":12, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Priprava sporocila
-Process-1 {"Process-0":11, "Process-1":13, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":19, "Process-1":14, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":19, "Process-1":15, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Priprava sporocila
-Process-1 {"Process-0":19, "Process-1":16, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":19, "Process-1":17, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Priprava sporocila
-Process-1 {"Process-0":19, "Process-1":18, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":19, "Process-1":19, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Prejeto sporocilo 
 Process-2 {"Process-2":1}
 Initialization Complete
-Process-2 {"Process-0":7, "Process-1":6, "Process-2":2, "Process-4":4}
-INFO Prejeto sporocilo 
-Process-2 {"Process-0":7, "Process-1":6, "Process-2":3, "Process-4":4}
-INFO Priprava sporocila
-Process-2 {"Process-0":7, "Process-1":6, "Process-2":4, "Process-4":4}
-INFO Poslano sporocilo 
-Process-2 {"Process-0":7, "Process-1":6, "Process-2":5, "Process-4":4}
-INFO Priprava sporocila
-Process-2 {"Process-0":7, "Process-1":6, "Process-2":6, "Process-4":4}
-INFO Poslano sporocilo 
-Process-2 {"Process-0":13, "Process-1":6, "Process-2":7, "Process-4":4}
-INFO Prejeto sporocilo 
-Process-2 {"Process-0":17, "Process-1":6, "Process-2":8, "Process-4":4}
-INFO Prejeto sporocilo 
-Process-2 {"Process-0":17, "Process-1":6, "Process-2":9, "Process-4":4}
-INFO Priprava sporocila
-Process-2 {"Process-0":17, "Process-1":6, "Process-2":10, "Process-4":4}
-INFO Poslano sporocilo 
-Process-2 {"Process-0":17, "Process-1":6, "Process-2":11, "Process-4":4}
-INFO Priprava sporocila
-Process-2 {"Process-0":17, "Process-1":6, "Process-2":12, "Process-4":4}
-INFO Poslano sporocilo 
-Process-2 {"Process-0":21, "Process-1":6, "Process-2":13, "Process-4":4}
-INFO Prejeto sporocilo 
-Process-2 {"Process-0":21, "Process-1":6, "Process-2":14, "Process-4":4}
-INFO Priprava sporocila
-Process-2 {"Process-0":21, "Process-1":6, "Process-2":15, "Process-4":4}
-INFO Poslano sporocilo 
-Process-2 {"Process-0":21, "Process-1":6, "Process-2":16, "Process-4":4}
-INFO Priprava sporocila
-Process-2 {"Process-0":21, "Process-1":6, "Process-2":17, "Process-4":4}
-INFO Poslano sporocilo 
-Process-2 {"Process-0":21, "Process-1":6, "Process-2":18, "Process-4":4}
-INFO Prejeto sporocilo 
 Process-3 {"Process-3":1}
 Initialization Complete
-Process-3 {"Process-0":9, "Process-3":2}
-INFO Prejeto sporocilo 
-Process-3 {"Process-0":9, "Process-3":3}
-INFO Priprava sporocila
-Process-3 {"Process-0":9, "Process-3":4}
-INFO Poslano sporocilo 
-Process-3 {"Process-0":9, "Process-3":5}
-INFO Priprava sporocila
-Process-3 {"Process-0":9, "Process-3":6}
-INFO Poslano sporocilo 
-Process-3 {"Process-0":9, "Process-1":6, "Process-2":6, "Process-3":7, "Process-4":4}
-INFO Prejeto sporocilo 
-Process-3 {"Process-0":9, "Process-1":6, "Process-2":6, "Process-3":8, "Process-4":4}
-INFO Priprava sporocila
-Process-3 {"Process-0":9, "Process-1":6, "Process-2":6, "Process-3":9, "Process-4":4}
-INFO Poslano sporocilo 
-Process-3 {"Process-0":9, "Process-1":6, "Process-2":6, "Process-3":10, "Process-4":4}
-INFO Priprava sporocila
-Process-3 {"Process-0":9, "Process-1":6, "Process-2":6, "Process-3":11, "Process-4":4}
-INFO Poslano sporocilo 
-Process-3 {"Process-0":15, "Process-1":11, "Process-2":6, "Process-3":12, "Process-4":13}
-INFO Prejeto sporocilo 
-Process-3 {"Process-0":21, "Process-1":11, "Process-2":17, "Process-3":13, "Process-4":13}
-INFO Prejeto sporocilo 
-Process-3 {"Process-0":21, "Process-1":11, "Process-2":17, "Process-3":14, "Process-4":13}
-INFO Prejeto sporocilo 
 Process-4 {"Process-4":1}
 Initialization Complete
-Process-4 {"Process-0":7, "Process-1":6, "Process-4":2}
-INFO Prejeto sporocilo 
-Process-4 {"Process-0":7, "Process-1":6, "Process-4":3}
-INFO Priprava sporocila
-Process-4 {"Process-0":7, "Process-1":6, "Process-4":4}
-INFO Poslano sporocilo 
-Process-4 {"Process-0":7, "Process-1":6, "Process-4":5}
-INFO Priprava sporocila
-Process-4 {"Process-0":7, "Process-1":6, "Process-4":6}
-INFO Poslano sporocilo 
-Process-4 {"Process-0":9, "Process-1":6, "Process-2":6, "Process-3":11, "Process-4":7}
-INFO Prejeto sporocilo 
-Process-4 {"Process-0":11, "Process-1":11, "Process-2":6, "Process-3":11, "Process-4":8}
-INFO Prejeto sporocilo 
-Process-4 {"Process-0":15, "Process-1":11, "Process-2":6, "Process-3":11, "Process-4":9}
-INFO Prejeto sporocilo 
-Process-4 {"Process-0":15, "Process-1":11, "Process-2":6, "Process-3":11, "Process-4":10}
-INFO Priprava sporocila
-Process-4 {"Process-0":15, "Process-1":11, "Process-2":6, "Process-3":11, "Process-4":11}
-INFO Poslano sporocilo 
-Process-4 {"Process-0":15, "Process-1":11, "Process-2":6, "Process-3":11, "Process-4":12}
-INFO Priprava sporocila
-Process-4 {"Process-0":15, "Process-1":11, "Process-2":6, "Process-3":11, "Process-4":13}
-INFO Poslano sporocilo 
-Process-4 {"Process-0":21, "Process-1":11, "Process-2":15, "Process-3":11, "Process-4":14}
-INFO Prejeto sporocilo 
-Process-4 {"Process-0":21, "Process-1":11, "Process-2":15, "Process-3":11, "Process-4":15}
-INFO Prejeto sporocilo 
