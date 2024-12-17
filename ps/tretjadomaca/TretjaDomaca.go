@@ -35,6 +35,10 @@ func receive(addr *net.UDPAddr) string {
 	conn.Read(buffer)
 	Logger.UnpackReceive("Prejeto sporocilo ", buffer, &msg, opts)
 
+	if len(msg) == 0 {
+		return ""
+	}
+
 	fmt.Println("Proces ", id, "prejel", msg[0])
 
 	return string(msg[0])
@@ -47,7 +51,7 @@ func send(addr *net.UDPAddr, msg int) {
 	// Pripravimo sporočilo
 
 	Logger.LogLocalEvent("Priprava sporocila", opts)
-	sMsg := fmt.Sprint(id) + "-" + string(msg)
+	sMsg := strconv.Itoa(msg)
 	sMsgVC := Logger.PrepareSend("Poslano sporocilo ", []byte(sMsg), opts)
 	conn.Write(sMsgVC)
 	fmt.Println("Proces", id, "poslal sporočilo", sMsg, "procesu na naslovu", addr)
@@ -71,9 +75,12 @@ func mainProcess(port, numOfProcesses, numOfMessages, spread int) {
 	for i := 0; i < numOfMessages; i++ {
 		arr := getRandomNumbers(numOfProcesses, spread)
 
-		for pid := range arr {
-			addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", port+pid))
-			send(addr, pid)
+		fmt.Println("arr", arr)
+		for _, pid := range arr {
+			curPort := port + pid
+			addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", curPort))
+			fmt.Println("pid", pid, curPort)
+			send(addr, i)
 		}
 
 		time.Sleep(100 * time.Millisecond)
@@ -92,11 +99,14 @@ func normalProcess(port, numOfProcesses, spread int) {
 			return
 		default:
 			msg := receive(addr)
+			if msg == "" {
+				continue
+			}
 			if _, ok := localMap[msg]; !ok {
 				arr := getRandomNumbers(numOfProcesses, spread)
 
-				for pid := range arr {
-					addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", port+pid))
+				for _, pid := range arr {
+					addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", (port+pid)))
 					send(addr, pid)
 				}
 			}
@@ -110,8 +120,8 @@ func main() {
 	portPtr := flag.Int("p", 9000, "# start port")
 	processId := flag.Int("id", 0, "# process id")
 	numOfProcesses := flag.Int("n", 2, "total number of processes")
-	numOfMessages := flag.Int("m", 5, "# process id")
-	spread := flag.Int("k", 2, "# process id")
+	numOfMessages := flag.Int("m", 5, "# number of messages")
+	spread := flag.Int("k", 2, "# number of spread")
 	flag.Parse()
 
 	// dnevnik z vektorsko uro

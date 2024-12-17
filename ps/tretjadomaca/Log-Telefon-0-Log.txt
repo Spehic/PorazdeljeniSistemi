@@ -1,40 +1,4 @@
 Telefon-0 {"Telefon-0":1}
 Initialization Complete
-Telefon-0 {"Telefon-0":4}
-INFO Priprava sporocila
-Telefon-0 {"Telefon-0":1}
-Initialization Complete
-Telefon-0 {"Telefon-0":5}
-INFO Poslano sporocilo 
-Telefon-0 {"Telefon-0":6}
-INFO Priprava sporocila
-Telefon-0 {"Telefon-0":7}
-INFO Poslano sporocilo 
-Telefon-0 {"Telefon-0":8}
-INFO Priprava sporocila
-Telefon-0 {"Telefon-0":9}
-INFO Poslano sporocilo 
-Telefon-0 {"Telefon-0":10}
-INFO Priprava sporocila
-Telefon-0 {"Telefon-0":11}
-INFO Poslano sporocilo 
-Telefon-0 {"Telefon-0":12}
-INFO Priprava sporocila
-Telefon-0 {"Telefon-0":13}
-INFO Poslano sporocilo 
-Telefon-0 {"Telefon-0":14}
-INFO Priprava sporocila
-Telefon-0 {"Telefon-0":15}
-INFO Poslano sporocilo 
-Telefon-0 {"Telefon-0":16}
-INFO Priprava sporocila
-Telefon-0 {"Telefon-0":17}
-INFO Poslano sporocilo 
-Telefon-0 {"Telefon-0":18}
-INFO Priprava sporocila
-Telefon-0 {"Telefon-0":19}
-INFO Poslano sporocilo 
-Telefon-0 {"Telefon-0":20}
-INFO Priprava sporocila
-Telefon-0 {"Telefon-0":21}
-INFO Poslano sporocilo 
+Telefon-0 {"Telefon-0":2}
+INFO Prejeto sporocilo 
