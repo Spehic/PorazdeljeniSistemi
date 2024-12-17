@@ -1,224 +1,38 @@
 Process-1 {"Process-1":1}
 Initialization Complete
-Process-1 {"Process-0":5, "Process-1":2, "Process-2":9, "Process-3":16}
+Process-1 {"Process-0":7, "Process-1":2}
 INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":3, "Process-2":9, "Process-3":16}
+Process-1 {"Process-0":7, "Process-1":3}
 INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":4, "Process-2":9, "Process-3":16}
+Process-1 {"Process-0":7, "Process-1":4}
 INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":5, "Process-2":9, "Process-3":16}
+Process-1 {"Process-0":7, "Process-1":5}
 INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":6, "Process-2":9, "Process-3":16}
+Process-1 {"Process-0":7, "Process-1":6}
 INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":7, "Process-2":14, "Process-3":19, "Process-4":16}
+Process-1 {"Process-0":9, "Process-1":7, "Process-3":6}
 INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":8, "Process-2":14, "Process-3":19, "Process-4":16}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":9, "Process-2":14, "Process-3":19, "Process-4":16}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":10, "Process-2":14, "Process-3":19, "Process-4":16}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":11, "Process-2":14, "Process-3":19, "Process-4":16}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":12, "Process-2":36, "Process-3":34, "Process-4":34}
+Process-1 {"Process-0":9, "Process-1":8, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":13, "Process-2":36, "Process-3":34, "Process-4":34}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":14, "Process-2":36, "Process-3":34, "Process-4":34}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":15, "Process-2":36, "Process-3":34, "Process-4":34}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":16, "Process-2":36, "Process-3":34, "Process-4":34}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":17, "Process-2":39, "Process-3":46, "Process-4":39}
+Process-1 {"Process-0":11, "Process-1":9, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":18, "Process-2":39, "Process-3":46, "Process-4":39}
+Process-1 {"Process-0":11, "Process-1":10, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":19, "Process-2":39, "Process-3":46, "Process-4":39}
+Process-1 {"Process-0":11, "Process-1":11, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":20, "Process-2":39, "Process-3":46, "Process-4":39}
+Process-1 {"Process-0":11, "Process-1":12, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":21, "Process-2":39, "Process-3":46, "Process-4":39}
+Process-1 {"Process-0":11, "Process-1":13, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":22, "Process-2":49, "Process-3":54, "Process-4":51}
+Process-1 {"Process-0":19, "Process-1":14, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":23, "Process-2":49, "Process-3":54, "Process-4":51}
+Process-1 {"Process-0":19, "Process-1":15, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":24, "Process-2":49, "Process-3":54, "Process-4":51}
+Process-1 {"Process-0":19, "Process-1":16, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":25, "Process-2":49, "Process-3":54, "Process-4":51}
+Process-1 {"Process-0":19, "Process-1":17, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":26, "Process-2":49, "Process-3":54, "Process-4":51}
+Process-1 {"Process-0":19, "Process-1":18, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":27, "Process-2":56, "Process-3":54, "Process-4":51}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":28, "Process-2":56, "Process-3":54, "Process-4":51}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":29, "Process-2":56, "Process-3":54, "Process-4":51}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":30, "Process-2":56, "Process-3":54, "Process-4":51}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":31, "Process-2":56, "Process-3":54, "Process-4":51}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":32, "Process-2":59, "Process-3":64, "Process-4":51}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":33, "Process-2":59, "Process-3":64, "Process-4":51}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":34, "Process-2":59, "Process-3":64, "Process-4":51}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":35, "Process-2":59, "Process-3":64, "Process-4":51}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":36, "Process-2":59, "Process-3":64, "Process-4":51}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":37, "Process-2":59, "Process-3":71, "Process-4":71}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":38, "Process-2":59, "Process-3":71, "Process-4":71}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":39, "Process-2":59, "Process-3":71, "Process-4":71}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":40, "Process-2":59, "Process-3":71, "Process-4":71}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":41, "Process-2":59, "Process-3":71, "Process-4":71}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":42, "Process-2":64, "Process-3":79, "Process-4":71}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":43, "Process-2":64, "Process-3":79, "Process-4":71}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":44, "Process-2":64, "Process-3":79, "Process-4":71}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":45, "Process-2":64, "Process-3":79, "Process-4":71}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":46, "Process-2":64, "Process-3":79, "Process-4":71}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":47, "Process-2":76, "Process-3":81, "Process-4":74}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":48, "Process-2":76, "Process-3":81, "Process-4":74}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":49, "Process-2":76, "Process-3":81, "Process-4":74}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":50, "Process-2":76, "Process-3":81, "Process-4":74}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":51, "Process-2":76, "Process-3":81, "Process-4":74}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":52, "Process-2":76, "Process-3":89, "Process-4":86}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":53, "Process-2":76, "Process-3":89, "Process-4":86}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":54, "Process-2":76, "Process-3":89, "Process-4":86}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":55, "Process-2":76, "Process-3":89, "Process-4":86}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":56, "Process-2":76, "Process-3":89, "Process-4":86}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":57, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":5, "Process-1":58, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":59, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":5, "Process-1":60, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Priprava sporocila
-Process-1 {"Process-0":5, "Process-1":61, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":7, "Process-1":62, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":7, "Process-1":63, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Priprava sporocila
-Process-1 {"Process-0":7, "Process-1":64, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":7, "Process-1":65, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Priprava sporocila
-Process-1 {"Process-0":7, "Process-1":66, "Process-2":84, "Process-3":89, "Process-4":96}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":9, "Process-1":67, "Process-2":96, "Process-3":109, "Process-4":99}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":9, "Process-1":68, "Process-2":96, "Process-3":109, "Process-4":99}
-INFO Priprava sporocila
-Process-1 {"Process-0":9, "Process-1":69, "Process-2":96, "Process-3":109, "Process-4":99}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":9, "Process-1":70, "Process-2":96, "Process-3":109, "Process-4":99}
-INFO Priprava sporocila
-Process-1 {"Process-0":9, "Process-1":71, "Process-2":96, "Process-3":109, "Process-4":99}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":9, "Process-1":72, "Process-2":101, "Process-3":111, "Process-4":104}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":9, "Process-1":73, "Process-2":101, "Process-3":111, "Process-4":104}
-INFO Priprava sporocila
-Process-1 {"Process-0":9, "Process-1":74, "Process-2":101, "Process-3":111, "Process-4":104}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":9, "Process-1":75, "Process-2":101, "Process-3":111, "Process-4":104}
-INFO Priprava sporocila
-Process-1 {"Process-0":9, "Process-1":76, "Process-2":101, "Process-3":111, "Process-4":104}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":9, "Process-1":77, "Process-2":101, "Process-3":121, "Process-4":104}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":9, "Process-1":78, "Process-2":101, "Process-3":121, "Process-4":104}
-INFO Priprava sporocila
-Process-1 {"Process-0":9, "Process-1":79, "Process-2":101, "Process-3":121, "Process-4":104}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":9, "Process-1":80, "Process-2":101, "Process-3":121, "Process-4":104}
-INFO Priprava sporocila
-Process-1 {"Process-0":9, "Process-1":81, "Process-2":101, "Process-3":121, "Process-4":104}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":13, "Process-1":82, "Process-2":119, "Process-3":136, "Process-4":119}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":13, "Process-1":83, "Process-2":119, "Process-3":136, "Process-4":119}
-INFO Priprava sporocila
-Process-1 {"Process-0":13, "Process-1":84, "Process-2":119, "Process-3":136, "Process-4":119}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":13, "Process-1":85, "Process-2":119, "Process-3":136, "Process-4":119}
-INFO Priprava sporocila
-Process-1 {"Process-0":13, "Process-1":86, "Process-2":119, "Process-3":136, "Process-4":119}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":17, "Process-1":87, "Process-2":121, "Process-3":146, "Process-4":119}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":17, "Process-1":88, "Process-2":121, "Process-3":146, "Process-4":119}
-INFO Priprava sporocila
-Process-1 {"Process-0":17, "Process-1":89, "Process-2":121, "Process-3":146, "Process-4":119}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":17, "Process-1":90, "Process-2":121, "Process-3":146, "Process-4":119}
-INFO Priprava sporocila
-Process-1 {"Process-0":17, "Process-1":91, "Process-2":121, "Process-3":146, "Process-4":119}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":17, "Process-1":92, "Process-2":124, "Process-3":146, "Process-4":119}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":17, "Process-1":93, "Process-2":124, "Process-3":146, "Process-4":119}
-INFO Priprava sporocila
-Process-1 {"Process-0":17, "Process-1":94, "Process-2":124, "Process-3":146, "Process-4":119}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":17, "Process-1":95, "Process-2":124, "Process-3":146, "Process-4":119}
-INFO Priprava sporocila
-Process-1 {"Process-0":17, "Process-1":96, "Process-2":124, "Process-3":146, "Process-4":119}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":17, "Process-1":97, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":17, "Process-1":98, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Priprava sporocila
-Process-1 {"Process-0":17, "Process-1":99, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":17, "Process-1":100, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Priprava sporocila
-Process-1 {"Process-0":17, "Process-1":101, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":19, "Process-1":102, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":19, "Process-1":103, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Priprava sporocila
-Process-1 {"Process-0":19, "Process-1":104, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":19, "Process-1":105, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Priprava sporocila
-Process-1 {"Process-0":19, "Process-1":106, "Process-2":124, "Process-3":156, "Process-4":134}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":21, "Process-1":107, "Process-2":139, "Process-3":161, "Process-4":149}
-INFO Prejeto sporocilo 
-Process-1 {"Process-0":21, "Process-1":108, "Process-2":139, "Process-3":161, "Process-4":149}
-INFO Priprava sporocila
-Process-1 {"Process-0":21, "Process-1":109, "Process-2":139, "Process-3":161, "Process-4":149}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":21, "Process-1":110, "Process-2":139, "Process-3":161, "Process-4":149}
-INFO Priprava sporocila
-Process-1 {"Process-0":21, "Process-1":111, "Process-2":139, "Process-3":161, "Process-4":149}
-INFO Poslano sporocilo 
-Process-1 {"Process-0":21, "Process-1":112, "Process-2":139, "Process-3":161, "Process-4":149}
+Process-1 {"Process-0":19, "Process-1":19, "Process-2":6, "Process-3":9, "Process-4":4}
 INFO Prejeto sporocilo 
