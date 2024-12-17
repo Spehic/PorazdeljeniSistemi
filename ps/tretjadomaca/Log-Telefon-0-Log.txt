@@ -1,4 +1,0 @@
-Telefon-0 {"Telefon-0":1}
-Initialization Complete
-Telefon-0 {"Telefon-0":2}
-INFO Prejeto sporocilo 

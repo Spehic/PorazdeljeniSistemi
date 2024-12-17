@@ -1,0 +1,173 @@
+127.0.0.1:9203
+&{{0xc000146100}}
+returnd 0
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc0000a0100}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc000146280}}
+returnd 3
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+127.0.0.1:9203
+&{{0xc0000a0280}}
+returnd 3
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc000146400}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc0000a0400}}
+returnd 3
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc000146580}}
+returnd 3
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc0000a0580}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc000146700}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+127.0.0.1:9203
+&{{0xc0000a0700}}
+returnd 3
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc000146880}}
+returnd 3
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc0000a0880}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+127.0.0.1:9203
+&{{0xc000146a00}}
+returnd 3
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc0000a0a00}}
+returnd 3
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+127.0.0.1:9203
+&{{0xc000146b80}}
+returnd 3
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+127.0.0.1:9203
+&{{0xc0000a0b80}}
+returnd 3
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc000146d00}}
+returnd 3
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc000146e80}}
+returnd 3
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc0000a0d00}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+127.0.0.1:9203
+&{{0xc000147000}}
+returnd 3
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc0000a0e80}}
+returnd 1
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc000147180}}
+returnd 3
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+127.0.0.1:9203
+&{{0xc0000a1000}}
+returnd 3
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc000147300}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+127.0.0.1:9203
+&{{0xc0000a1180}}
+returnd 3
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc0000a1300}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc000147480}}
+returnd 2
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc0000a1480}}
+returnd 3
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc000147600}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+127.0.0.1:9203
+&{{0xc0000a1600}}
+returnd 3
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+127.0.0.1:9203
+&{{0xc000147780}}
+returnd 3
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+Proces 3 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+127.0.0.1:9203
+&{{0xc0000a1780}}
+returnd 3
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+Proces 3 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9204
+127.0.0.1:9203
+&{{0xc000147900}}
+returnd 3
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+127.0.0.1:9203
+&{{0xc0000a1900}}
+returnd 3
+Proces 3 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+Proces 3 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9203
+&{{0xc000147a80}}
+Timeout reached, stopping the loop. Process:  3

@@ -1,4 +1,42 @@
 Process-0 {"Process-0":1}
 Initialization Complete
 Process-0 {"Process-0":2}
-INFO Prejeto sporocilo 
+INFO Priprava sporocila
+Process-0 {"Process-0":3}
+INFO Poslano sporocilo 
+Process-0 {"Process-0":4}
+INFO Priprava sporocila
+Process-0 {"Process-0":5}
+INFO Poslano sporocilo 
+Process-0 {"Process-0":6}
+INFO Priprava sporocila
+Process-0 {"Process-0":7}
+INFO Poslano sporocilo 
+Process-0 {"Process-0":8}
+INFO Priprava sporocila
+Process-0 {"Process-0":9}
+INFO Poslano sporocilo 
+Process-0 {"Process-0":10}
+INFO Priprava sporocila
+Process-0 {"Process-0":11}
+INFO Poslano sporocilo 
+Process-0 {"Process-0":12}
+INFO Priprava sporocila
+Process-0 {"Process-0":13}
+INFO Poslano sporocilo 
+Process-0 {"Process-0":14}
+INFO Priprava sporocila
+Process-0 {"Process-0":15}
+INFO Poslano sporocilo 
+Process-0 {"Process-0":16}
+INFO Priprava sporocila
+Process-0 {"Process-0":17}
+INFO Poslano sporocilo 
+Process-0 {"Process-0":18}
+INFO Priprava sporocila
+Process-0 {"Process-0":19}
+INFO Poslano sporocilo 
+Process-0 {"Process-0":20}
+INFO Priprava sporocila
+Process-0 {"Process-0":21}
+INFO Poslano sporocilo 

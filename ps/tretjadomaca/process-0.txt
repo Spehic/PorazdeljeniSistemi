@@ -1,0 +1,11 @@
+Proces 0 poslal sporočilo 0 procesu na naslovu 127.0.0.1:9203
+Proces 0 poslal sporočilo 0 procesu na naslovu 127.0.0.1:9202
+Proces 0 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+Proces 0 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9203
+Proces 0 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9204
+Proces 0 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9203
+Proces 0 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9204
+Proces 0 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+Proces 0 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9201
+Proces 0 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9202
+Glavni proces
