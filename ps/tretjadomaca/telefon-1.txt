@@ -1,0 +1,3 @@
+TretjaDomaca: /lib64/libc.so.6: version `GLIBC_2.34' not found (required by TretjaDomaca)
+TretjaDomaca: /lib64/libc.so.6: version `GLIBC_2.32' not found (required by TretjaDomaca)
+srun: error: wn111: task 0: Exited with exit code 1
