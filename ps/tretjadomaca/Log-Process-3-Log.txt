@@ -2,3 +2,67 @@ Process-3 {"Process-3":1}
 Initialization Complete
 Process-3 {"Process-0":5, "Process-3":2}
 INFO Prejeto sporocilo
+Process-3 {"Process-0":5, "Process-3":3}
+INFO Priprava sporocila
+Process-3 {"Process-0":5, "Process-3":4}
+INFO Poslano sporocilo 0
+Process-3 {"Process-0":5, "Process-3":5}
+INFO Priprava sporocila
+Process-3 {"Process-0":5, "Process-3":6}
+INFO Poslano sporocilo 0
+Process-3 {"Process-0":5, "Process-2":6, "Process-3":7}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":5, "Process-2":6, "Process-3":8}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":9, "Process-2":6, "Process-3":9}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":9, "Process-2":6, "Process-3":10}
+INFO Priprava sporocila
+Process-3 {"Process-0":9, "Process-2":6, "Process-3":11}
+INFO Poslano sporocilo 1
+Process-3 {"Process-0":9, "Process-2":6, "Process-3":12}
+INFO Priprava sporocila
+Process-3 {"Process-0":9, "Process-2":6, "Process-3":13}
+INFO Poslano sporocilo 1
+Process-3 {"Process-0":9, "Process-2":6, "Process-3":14}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":13, "Process-2":11, "Process-3":15}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":13, "Process-2":11, "Process-3":16}
+INFO Priprava sporocila
+Process-3 {"Process-0":13, "Process-2":11, "Process-3":17}
+INFO Poslano sporocilo 2
+Process-3 {"Process-0":13, "Process-2":11, "Process-3":18}
+INFO Priprava sporocila
+Process-3 {"Process-0":13, "Process-2":11, "Process-3":19}
+INFO Poslano sporocilo 2
+Process-3 {"Process-0":17, "Process-2":11, "Process-3":20}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":17, "Process-2":11, "Process-3":21}
+INFO Priprava sporocila
+Process-3 {"Process-0":17, "Process-2":11, "Process-3":22}
+INFO Poslano sporocilo 3
+Process-3 {"Process-0":17, "Process-2":11, "Process-3":23}
+INFO Priprava sporocila
+Process-3 {"Process-0":17, "Process-2":11, "Process-3":24}
+INFO Poslano sporocilo 3
+Process-3 {"Process-0":17, "Process-1":20, "Process-2":11, "Process-3":25, "Process-4":4}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":17, "Process-1":20, "Process-2":11, "Process-3":26, "Process-4":4}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":17, "Process-1":20, "Process-2":11, "Process-3":27, "Process-4":13}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":19, "Process-1":20, "Process-2":11, "Process-3":28, "Process-4":19}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":19, "Process-1":20, "Process-2":11, "Process-3":29, "Process-4":19}
+INFO Priprava sporocila
+Process-3 {"Process-0":19, "Process-1":20, "Process-2":11, "Process-3":30, "Process-4":19}
+INFO Poslano sporocilo 4
+Process-3 {"Process-0":19, "Process-1":20, "Process-2":11, "Process-3":31, "Process-4":19}
+INFO Priprava sporocila
+Process-3 {"Process-0":19, "Process-1":20, "Process-2":11, "Process-3":32, "Process-4":19}
+INFO Poslano sporocilo 4
+Process-3 {"Process-0":19, "Process-1":20, "Process-2":11, "Process-3":33, "Process-4":19}
+INFO Prejeto sporocilo
+Process-3 {"Process-0":21, "Process-1":26, "Process-2":21, "Process-3":34, "Process-4":19}
+INFO Prejeto sporocilo

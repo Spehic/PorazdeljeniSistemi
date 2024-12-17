@@ -1,16 +1,82 @@
 1 Conn created &{{0xc000146100}}
 127.0.0.1:9201
 1 Receiving &{{0xc000146100}}
-panic: runtime error: index out of range [3] with length 1
+conn.Read 25
+Prejeto sporocilo 1
+returnd 1
+1 Sending 1
+Proces 1 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9201
+1 Sending 1
+Proces 1 poslal sporočilo 1 procesu na naslovu 127.0.0.1:9204
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+conn.Read 36
+Prejeto sporocilo 1
+returnd 1
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+conn.Read 58
+Prejeto sporocilo 1
+returnd 1
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+conn.Read 25
+Prejeto sporocilo 2
+returnd 2
+1 Sending 2
+Proces 1 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9202
+1 Sending 2
+Proces 1 poslal sporočilo 2 procesu na naslovu 127.0.0.1:9201
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+conn.Read 69
+Prejeto sporocilo 2
+returnd 2
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+conn.Read 47
+Prejeto sporocilo 2
+returnd 2
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+conn.Read 25
+Prejeto sporocilo 3
+returnd 3
+1 Sending 3
+Proces 1 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9201
+1 Sending 3
+Proces 1 poslal sporočilo 3 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+conn.Read 69
+Prejeto sporocilo 3
+returnd 3
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+conn.Read 69
+Prejeto sporocilo 4
+returnd 4
+1 Sending 4
+Proces 1 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9201
+1 Sending 4
+Proces 1 poslal sporočilo 4 procesu na naslovu 127.0.0.1:9203
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+conn.Read 69
+Prejeto sporocilo 4
+returnd 4
+127.0.0.1:9201
+1 Receiving &{{0xc000146100}}
+panic: read udp 127.0.0.1:9201: i/o timeout
 
 goroutine 1 [running]:
-encoding/binary.littleEndian.Uint32(...)
-	/d/hpc/home/as8534/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.4.linux-amd64/src/encoding/binary/binary.go:87
+main.checkError(...)
+	/d/hpc/home/as8534/PorazdeljeniSistemi/ps/tretjadomaca/TretjaDomaca.go:27
 main.receive()
-	/d/hpc/home/as8534/PorazdeljeniSistemi/ps/tretjadomaca/TretjaDomaca.go:47 +0x1ee
+	/d/hpc/home/as8534/PorazdeljeniSistemi/ps/tretjadomaca/TretjaDomaca.go:39 +0x265
 main.normalProcess(0x23f0, 0x5, 0x2)
-	/d/hpc/home/as8534/PorazdeljeniSistemi/ps/tretjadomaca/TretjaDomaca.go:117 +0x2ef
+	/d/hpc/home/as8534/PorazdeljeniSistemi/ps/tretjadomaca/TretjaDomaca.go:117 +0x2ec
 main.main()
-	/d/hpc/home/as8534/PorazdeljeniSistemi/ps/tretjadomaca/TretjaDomaca.go:157 +0x392
+	/d/hpc/home/as8534/PorazdeljeniSistemi/ps/tretjadomaca/TretjaDomaca.go:159 +0x392
 exit status 2
 srun: error: wn111: task 0: Exited with exit code 1

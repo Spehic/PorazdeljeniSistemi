@@ -1,72 +1,46 @@
 Process-2 {"Process-2":1}
 Initialization Complete
-Process-2 {"Process-0":5, "Process-2":2}
+Process-2 {"Process-0":3, "Process-2":2}
 INFO Prejeto sporocilo
-Process-2 {"Process-0":5, "Process-2":3}
+Process-2 {"Process-0":3, "Process-2":3}
 INFO Priprava sporocila
-Process-2 {"Process-0":5, "Process-2":4}
+Process-2 {"Process-0":3, "Process-2":4}
 INFO Poslano sporocilo 0
-Process-2 {"Process-0":5, "Process-2":5}
+Process-2 {"Process-0":3, "Process-2":5}
 INFO Priprava sporocila
-Process-2 {"Process-0":5, "Process-2":6}
+Process-2 {"Process-0":3, "Process-2":6}
 INFO Poslano sporocilo 0
-Process-2 {"Process-0":5, "Process-1":4, "Process-2":7}
+Process-2 {"Process-0":3, "Process-2":7}
 INFO Prejeto sporocilo
-Process-2 {"Process-0":5, "Process-1":4, "Process-2":8}
+Process-2 {"Process-0":5, "Process-2":8, "Process-3":4}
 INFO Prejeto sporocilo
-Process-2 {"Process-0":9, "Process-1":4, "Process-2":9}
+Process-2 {"Process-0":13, "Process-2":9, "Process-3":4}
 INFO Prejeto sporocilo
-Process-2 {"Process-0":9, "Process-1":4, "Process-2":10}
+Process-2 {"Process-0":13, "Process-2":10, "Process-3":4}
 INFO Priprava sporocila
-Process-2 {"Process-0":9, "Process-1":4, "Process-2":11}
-INFO Poslano sporocilo 1
-Process-2 {"Process-0":9, "Process-1":4, "Process-2":12}
-INFO Priprava sporocila
-Process-2 {"Process-0":9, "Process-1":4, "Process-2":13}
-INFO Poslano sporocilo 1
-Process-2 {"Process-0":9, "Process-1":4, "Process-2":14}
-INFO Prejeto sporocilo
-Process-2 {"Process-0":9, "Process-1":11, "Process-2":15}
-INFO Prejeto sporocilo
-Process-2 {"Process-0":13, "Process-1":11, "Process-2":16}
-INFO Prejeto sporocilo
-Process-2 {"Process-0":13, "Process-1":11, "Process-2":17}
-INFO Priprava sporocila
-Process-2 {"Process-0":13, "Process-1":11, "Process-2":18}
+Process-2 {"Process-0":13, "Process-2":11, "Process-3":4}
 INFO Poslano sporocilo 2
-Process-2 {"Process-0":13, "Process-1":11, "Process-2":19}
+Process-2 {"Process-0":13, "Process-2":12, "Process-3":4}
 INFO Priprava sporocila
-Process-2 {"Process-0":13, "Process-1":11, "Process-2":20}
+Process-2 {"Process-0":13, "Process-2":13, "Process-3":4}
 INFO Poslano sporocilo 2
-Process-2 {"Process-0":13, "Process-1":11, "Process-2":21}
+Process-2 {"Process-0":13, "Process-1":11, "Process-2":14, "Process-3":11, "Process-4":4}
 INFO Prejeto sporocilo
-Process-2 {"Process-0":13, "Process-1":20, "Process-2":22}
+Process-2 {"Process-0":13, "Process-1":11, "Process-2":15, "Process-3":11, "Process-4":4}
 INFO Prejeto sporocilo
-Process-2 {"Process-0":15, "Process-1":20, "Process-2":23}
+Process-2 {"Process-0":13, "Process-1":11, "Process-2":16, "Process-3":17, "Process-4":4}
 INFO Prejeto sporocilo
-Process-2 {"Process-0":15, "Process-1":20, "Process-2":24}
+Process-2 {"Process-0":21, "Process-1":11, "Process-2":17, "Process-3":17, "Process-4":4}
+INFO Prejeto sporocilo
+Process-2 {"Process-0":21, "Process-1":11, "Process-2":18, "Process-3":17, "Process-4":4}
 INFO Priprava sporocila
-Process-2 {"Process-0":15, "Process-1":20, "Process-2":25}
-INFO Poslano sporocilo 3
-Process-2 {"Process-0":15, "Process-1":20, "Process-2":26}
-INFO Priprava sporocila
-Process-2 {"Process-0":15, "Process-1":20, "Process-2":27}
-INFO Poslano sporocilo 3
-Process-2 {"Process-0":15, "Process-1":20, "Process-2":28}
-INFO Prejeto sporocilo
-Process-2 {"Process-0":17, "Process-1":25, "Process-2":29}
-INFO Prejeto sporocilo
-Process-2 {"Process-0":21, "Process-1":25, "Process-2":30}
-INFO Prejeto sporocilo
-Process-2 {"Process-0":21, "Process-1":25, "Process-2":31}
-INFO Priprava sporocila
-Process-2 {"Process-0":21, "Process-1":25, "Process-2":32}
+Process-2 {"Process-0":21, "Process-1":11, "Process-2":19, "Process-3":17, "Process-4":4}
 INFO Poslano sporocilo 4
-Process-2 {"Process-0":21, "Process-1":25, "Process-2":33}
+Process-2 {"Process-0":21, "Process-1":11, "Process-2":20, "Process-3":17, "Process-4":4}
 INFO Priprava sporocila
-Process-2 {"Process-0":21, "Process-1":25, "Process-2":34}
+Process-2 {"Process-0":21, "Process-1":11, "Process-2":21, "Process-3":17, "Process-4":4}
 INFO Poslano sporocilo 4
-Process-2 {"Process-0":21, "Process-1":25, "Process-2":35}
+Process-2 {"Process-0":21, "Process-1":11, "Process-2":22, "Process-3":22, "Process-4":17}
 INFO Prejeto sporocilo
-Process-2 {"Process-0":21, "Process-1":32, "Process-2":36}
+Process-2 {"Process-0":21, "Process-1":11, "Process-2":23, "Process-3":22, "Process-4":17}
 INFO Prejeto sporocilo
