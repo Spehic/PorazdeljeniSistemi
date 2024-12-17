@@ -28,8 +28,7 @@ func checkError(err error) {
 	}
 }
 
-func receive(addr *net.UDPAddr) string {
-
+func receive() string {
 	fmt.Println(conn)
 
 	deadline := time.Now().Add(5 * time.Second)
@@ -39,7 +38,7 @@ func receive(addr *net.UDPAddr) string {
 	var msg []byte
 
 	conn.Read(buffer)
-	Logger.UnpackReceive("Prejeto sporocilo ", buffer, &msg, opts)
+	Logger.UnpackReceive("Prejeto sporocilo "+string(rune(msg[0])), buffer, &msg, opts)
 
 	if len(msg) == 0 {
 		return ""
@@ -57,7 +56,7 @@ func send(addr *net.UDPAddr, msg int) {
 
 	Logger.LogLocalEvent("Priprava sporocila", opts)
 	sMsg := strconv.Itoa(msg)
-	sMsgVC := Logger.PrepareSend("Poslano sporocilo ", []byte(sMsg), opts)
+	sMsgVC := Logger.PrepareSend("Poslano sporocilo "+sMsg, []byte(sMsg), opts)
 	sendConn.Write(sMsgVC)
 	fmt.Println("Proces", id, "poslal sporočilo", sMsg, "procesu na naslovu", addr)
 	//fmt.Println("endsend", id)
@@ -105,7 +104,7 @@ func normalProcess(port, numOfProcesses, spread int) {
 			return
 		default:
 			fmt.Println(addr)
-			msg := receive(addr)
+			msg := receive()
 
 			if len(msg) == 0 {
 				continue
