@@ -20,11 +20,19 @@ var id int
 var Logger *govec.GoLog
 var opts govec.GoLogOptions
 
+func checkError(err error) {
+	if err != nil {
+		panic(err)
+	}
+}
+
 func receive(addr *net.UDPAddr) string {
 
-	conn, _ := net.ListenUDP("udp", addr)
+	conn, err := net.ListenUDP("udp", addr)
+	checkError(err)
+
+	fmt.Println(conn)
 	defer conn.Close()
-	fmt.Println("Process", id, "poslusa na", addr)
 
 	deadline := time.Now().Add(5 * time.Second)
 	conn.SetDeadline(deadline)
@@ -39,14 +47,13 @@ func receive(addr *net.UDPAddr) string {
 		return ""
 	}
 
-	fmt.Println("Proces ", id, "prejel", msg[0])
-
-	return string(msg[0])
+	return string(rune(msg[0]))
 }
 
 func send(addr *net.UDPAddr, msg int) {
 	// Odpremo povezavo
-	conn, _ := net.DialUDP("udp", nil, addr)
+	conn, err := net.DialUDP("udp", nil, addr)
+	checkError(err)
 	defer conn.Close()
 	// Pripravimo sporočilo
 
@@ -55,7 +62,7 @@ func send(addr *net.UDPAddr, msg int) {
 	sMsgVC := Logger.PrepareSend("Poslano sporocilo ", []byte(sMsg), opts)
 	conn.Write(sMsgVC)
 	fmt.Println("Proces", id, "poslal sporočilo", sMsg, "procesu na naslovu", addr)
-
+	//fmt.Println("endsend", id)
 }
 
 func getRandomNumbers(numOfProcesses, spread int) []int {
@@ -75,20 +82,18 @@ func mainProcess(port, numOfProcesses, numOfMessages, spread int) {
 	for i := 0; i < numOfMessages; i++ {
 		arr := getRandomNumbers(numOfProcesses, spread)
 
-		fmt.Println("arr", arr)
 		for _, pid := range arr {
 			curPort := port + pid
 			addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", curPort))
-			fmt.Println("pid", pid, curPort)
 			send(addr, i)
 		}
 
-		time.Sleep(100 * time.Millisecond)
+		time.Sleep(500 * time.Millisecond)
 	}
 }
 
 func normalProcess(port, numOfProcesses, spread int) {
-	addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", port+id))
+	addr, _ := net.ResolveUDPAddr("udp", fmt.Sprintf("localhost:%d", (port+id)))
 	timeout := time.After(5 * time.Second)
 
 	localMap := make(map[string]int)
@@ -98,10 +103,13 @@ func normalProcess(port, numOfProcesses, spread int) {
 			fmt.Println("Timeout reached, stopping the loop. Process: ", id)
 			return
 		default:
+			fmt.Println(addr)
 			msg := receive(addr)
-			if msg == "" {
+
+			if len(msg) == 0 {
 				continue
 			}
+			fmt.Println("returnd", msg)
 			if _, ok := localMap[msg]; !ok {
 				arr := getRandomNumbers(numOfProcesses, spread)
 
@@ -125,12 +133,13 @@ func main() {
 	flag.Parse()
 
 	// dnevnik z vektorsko uro
-	Logger = govec.InitGoVector("Telefon-"+strconv.Itoa(id), "Log-Telefon-"+strconv.Itoa(id), govec.GetDefaultConfig())
+	Logger = govec.InitGoVector("Process-"+strconv.Itoa(id), "Log-Process-"+strconv.Itoa(id), govec.GetDefaultConfig())
 	opts = govec.GetDefaultLogOptions()
 
 	id = *processId
 	if *processId == 0 {
 		mainProcess(*portPtr, *numOfProcesses, *numOfMessages, *spread)
+		fmt.Println("Glavni proces")
 	} else {
 		normalProcess(*portPtr, *numOfProcesses, *spread)
 	}

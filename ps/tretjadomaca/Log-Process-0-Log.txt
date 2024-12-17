@@ -1,0 +1,4 @@
+Process-0 {"Process-0":1}
+Initialization Complete
+Process-0 {"Process-0":2}
+INFO Prejeto sporocilo 
