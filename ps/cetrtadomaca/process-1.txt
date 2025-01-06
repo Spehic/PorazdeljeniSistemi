@@ -1,0 +1,13 @@
+Hello, world! localhost 1 9205 2 localhost:9206
+gRPC client connecting to (head) localhost:9205
+1. Put: Naredi IRZ
+1 done
+2. Put: Nauči se devops
+2 done
+3. Put: Tek
+3 done
+gRPC client connecting to (tail) localhost:9205
+1. Getting: Tek
+1 get done: [Task:"Tek"  Completed:true]
+2. Get all
+2 get done: [Task:"Naredi IRZ" Task:"Nauči se devops"  Completed:true Task:"Tek"  Completed:true]

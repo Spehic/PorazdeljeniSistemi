@@ -1,0 +1,13 @@
+Hello, world! localhost 0 9205 2 localhost:9205
+wn111.arnes.si
+gRPC server listening at wn111.arnes.silocalhost:9205
+Called, started put procedure on localhost 9205
+Called, started put procedure on localhost 9205
+Called, started put procedure on localhost 9205
+Getting Tek
+Returning [Task:"Tek"  Completed:true] <nil>
+Getting 
+Returning [Task:"Naredi IRZ" Task:"Nauči se devops"  Completed:true Task:"Tek"  Completed:true] <nil>
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 54335998.0 ON wn111 CANCELLED AT 2025-01-06T19:59:44 ***
+slurmstepd: error: *** JOB 54335998 ON wn111 CANCELLED AT 2025-01-06T19:59:44 ***
